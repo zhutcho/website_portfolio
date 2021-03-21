@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* ----- Style the header section ----- */
+.header {
+  text-align: left;
+  padding: 0px;
+}
+
+.header p.name {
+  font-family: Copperplate, Garamond, serif;
+  font-size: 30px;
+  color: #485770;
+}
+
+.header p.tagline {
+  font-family: Garamond, serif;
+  font-size: 16px;
+  padding: 0px;
+}
+
+img.logo {
+  float: left;
+  width: 220px;
+}
+
+img.hero-image {
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  width: 600px;
+}
+
+
+/* ----- Navigation ----- */
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #000;
+  overflow: hidden;
+  clear: left;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #485770;
+  color: white;
+}
+
+
+/* Create two unequal columns that float next to each other for the title section */
+.header-section {
+  float: left;
+  padding: 10px;
+}
+
+.header-section.left {
+  width: 240px;
+}
+
+.header-section.right {
+  max-width: 600px;
+}
+
+/* Create three unequal columns that float next to each other */
+.column {
+  float: left;
+  padding: 10px;
+  /*height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Left and right column */
+.column.side {
+  width: 300px;
+}
+
+/* Middle column */
+.column.middle {
+  width: 500px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Image gallery styles */
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+div.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Style the footer */
+.footer {
+  background-color: #000;
+  overflow: hidden;
+  clear: left;
+  color: #f2f2f2;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+/*@media (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }*/
+}
