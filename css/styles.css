@@ -6,6 +6,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+h2 {
+  text-align: center;
+}
+
 
 /* ----- Style the header section ----- */
 .header {
@@ -32,9 +36,9 @@ img.logo {
 
 img.hero-image {
   display: block;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  margin-left: 10px;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
   width: 500px;
 }
 
@@ -85,24 +89,6 @@ img.hero-image {
   max-width: 600px;
 }
 
-.column {
-  float: left;
-  padding: 10px;
-  width: 50%;
-}
-
-/* Left and right column */
-.column.side {
-  width: 300px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 /* Image gallery styles */
 div.gallery {
   margin: 5px;
@@ -129,6 +115,14 @@ div.clearfix::after {
   content: "";
   clear: both;
   display: table;
+}
+
+/* Custom sections */
+section.about-me {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
 }
 
 /* Style the footer */
