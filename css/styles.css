@@ -35,7 +35,7 @@ img.hero-image {
   margin-top: 30px;
   margin-bottom: 30px;
   margin-left: 10px;
-  width: 600px;
+  width: 500px;
 }
 
 
@@ -85,21 +85,15 @@ img.hero-image {
   max-width: 600px;
 }
 
-/* Create three unequal columns that float next to each other */
 .column {
   float: left;
   padding: 10px;
-  /*height: 300px; /* Should be removed. Only for demonstration */
+  width: 50%;
 }
 
 /* Left and right column */
 .column.side {
   width: 300px;
-}
-
-/* Middle column */
-.column.middle {
-  width: 500px;
 }
 
 /* Clear floats after the columns */
