@@ -3,7 +3,8 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Rockwell;
+  font-size: 16px;
 }
 
 h2 {
@@ -47,7 +48,7 @@ img.hero-image {
 
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #000;
+  background-color: #EAE7DC;
   overflow: hidden;
   clear: left;
 }
@@ -55,23 +56,24 @@ img.hero-image {
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color: #f2f2f2;
+  color: grey;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-family: 'Helvetica Neue';
+  font-size: 18px;
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #D8C3A5;
   color: black;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #485770;
-  color: white;
+  background-color: white;
+  color: black;
 }
 
 
