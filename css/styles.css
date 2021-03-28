@@ -3,12 +3,20 @@
 }
 
 body {
-  font-family: Rockwell;
+  font-family: Rockwell, serif;
   font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Helvetica Neue', sans-serif;
 }
 
 h2 {
   text-align: center;
+}
+
+label {
+  font-family: 'Helvetica Neue', sans-serif;
 }
 
 
@@ -19,13 +27,13 @@ h2 {
 }
 
 .header p.name {
-  font-family: Copperplate, Garamond, serif;
+  font-family: 'Helvetica Neue', sans-serif;
   font-size: 30px;
   color: #485770;
 }
 
 .header p.tagline {
-  font-family: Garamond, serif;
+  font-family: 'Helvetica Neue', sans-serif;
   font-size: 16px;
   padding: 0px;
 }
@@ -60,7 +68,7 @@ img.hero-image {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-family: 'Helvetica Neue';
+  font-family: 'Helvetica Neue', sans-serif;
   font-size: 18px;
 }
 
@@ -119,7 +127,7 @@ div.clearfix::after {
   display: table;
 }
 
-/* Custom sections */
+/* --- Custom sections --- */
 section.about-me {
   max-width: 38em;
   margin-left: auto;
@@ -127,10 +135,12 @@ section.about-me {
   margin-top: 2em;
 }
 
-/* Contact form stuff */
+/* --- Contact form --- */
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
+  font-family: Rockwell, serif;
+  font-size: 12px;
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -143,6 +153,8 @@ input[type=text], select, textarea {
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 14px;
   background-color: #000000;
   color: white;
   padding: 12px 20px;
@@ -153,7 +165,7 @@ input[type=submit] {
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-  background-color: #000000;
+  background-color: #474747;
 }
 
 /* Add a background color and some padding around the form */
@@ -168,6 +180,7 @@ input[type=submit]:hover {
   background-color: #000;
   overflow: hidden;
   clear: left;
+  font-family: 'Helvetica Neue', sans-serif;
   color: #f2f2f2;
   text-align: left;
   padding: 14px 16px;
