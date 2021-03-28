@@ -104,7 +104,8 @@ div.gallery {
   margin: 5px;
   border: 1px solid #ccc;
   float: left;
-  width: 180px;
+  min-width: 300px;
+  width: 30%;
 }
 
 div.gallery:hover {
