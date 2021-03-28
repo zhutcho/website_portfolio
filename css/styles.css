@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: Rockwell, serif;
+  font-family: 'Helvetica Neue', sans-serif;
   font-size: 16px;
 }
 
@@ -27,14 +27,15 @@ label {
 }
 
 .header p.name {
-  font-family: 'Helvetica Neue', sans-serif;
-  font-size: 30px;
-  color: #485770;
+  font-family: Rockwell, serif;
+  font-size: 32px;
+  color: #000000;
+  padding-top: 70px;
 }
 
 .header p.tagline {
-  font-family: 'Helvetica Neue', sans-serif;
-  font-size: 16px;
+  font-family: Rockwell, serif;
+  font-size: 20px;
   padding: 0px;
 }
 
@@ -88,7 +89,7 @@ img.hero-image {
 /* Create two unequal columns that float next to each other for the title section */
 .header-section {
   float: left;
-  padding: 10px;
+  padding: 0px;
 }
 
 .header-section.left {
@@ -140,7 +141,7 @@ section.about-me {
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
-  font-family: Rockwell, serif;
+  font-family: 'Helvetica Neue', sans-serif;
   font-size: 12px;
   width: 100%;
   padding: 12px;
