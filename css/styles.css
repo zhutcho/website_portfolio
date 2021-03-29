@@ -138,6 +138,12 @@ div.page {
   margin-bottom: 20px;
 }
 
+/* --- Custom styling --- */
+
+.italicize {
+  font-style: italic;
+}
+
 /* --- Contact form --- */
 
 /* Style inputs with type="text", select elements and textareas */
