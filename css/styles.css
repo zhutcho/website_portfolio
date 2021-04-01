@@ -5,6 +5,7 @@
 body {
   font-family: 'Helvetica Neue', sans-serif;
   font-size: 16px;
+  margin-bottom: 50px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -40,7 +41,7 @@ label {
 }
 
 img.logo {
-  float: left;
+  float: center;
   width: 250px;
 }
 
@@ -95,14 +96,14 @@ img.hero-image {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: white;
+  background-color: black;
   overflow-x: hidden;
   padding-top: 20px;
 }
 
 /* The navigation menu links */
 .sidenav a {
-  padding: 6px 8px 6px 16px;
+  padding: 0px 0px 16px 0px;
   text-decoration: none;
   font-size: 25px;
   color: #818181;
@@ -228,12 +229,18 @@ input[type=submit]:hover {
 
 /* Style the footer */
 .footer {
-  background-color: #000;
+  background-color: rgba(255, 255, 255, 0.5);
+  position: fixed;
+  height: 50px;
   overflow: hidden;
   clear: left;
   font-family: 'Helvetica Neue', sans-serif;
-  color: #f2f2f2;
-  text-align: left;
+  color: darkgrey;
+  text-align: center;
+  bottom: 0px;
+  left: 250px;
+  right: 0px;
+  margin-bottom: 0px;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
