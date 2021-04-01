@@ -210,6 +210,10 @@ div.reading {
   font-style: italic;
 }
 
+.bold {
+  font-weight: bold;
+}
+
 /* --- Contact form --- */
 
 /* Style inputs with type="text", select elements and textareas */
@@ -218,7 +222,7 @@ input[type=text], select, textarea {
   font-size: 12px;
   width: 100%;
   padding: 12px;
-  border: 1px solid #ccc;
+  border: 3px solid black;
   border-radius: 4px;
   box-sizing: border-box;
   margin-top: 6px;
@@ -230,6 +234,7 @@ input[type=text], select, textarea {
 input[type=submit] {
   font-family: 'Helvetica Neue', sans-serif;
   font-size: 14px;
+  font-weight: bold;
   background-color: #000000;
   color: white;
   padding: 12px 20px;
@@ -246,7 +251,7 @@ input[type=submit]:hover {
 /* Add a background color and some padding around the form */
 .container {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  border: 3px solid black;
   padding: 20px;
 }
 
