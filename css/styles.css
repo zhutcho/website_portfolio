@@ -128,7 +128,7 @@ img.hero-image {
 
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
-  color: grey;
+  color: #c9e265;
 }
 
 /* Style page content */
@@ -161,14 +161,16 @@ img.hero-image {
 /* Image gallery styles */
 div.gallery {
   margin: 5px;
-  border: 1px solid #ccc;
+  padding: 5px 5px 5px 5px;
+  border: 3px solid black;
   float: left;
   min-width: 300px;
   width: 30%;
 }
 
 div.gallery:hover {
-  border: 1px solid #777;
+  border: 3px solid #c9e265;
+  background-color: #c9e265;
 }
 
 div.gallery img {
