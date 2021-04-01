@@ -41,8 +41,23 @@ label {
 }
 
 img.logo {
-  float: center;
   width: 300px;
+}
+
+.imgBox {
+  position: relative;
+  float: left;
+}
+
+.imgBox .hoverImg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+}
+
+.imgBox:hover .hoverImg {
+  display: block;
 }
 
 img.hero-image {
