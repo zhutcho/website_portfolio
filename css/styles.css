@@ -21,25 +21,7 @@ label {
 }
 
 
-/* ----- Style the header section ----- */
-.header {
-  text-align: left;
-  padding: 0px;
-}
-
-.header p.name {
-  font-family: Rockwell, serif;
-  font-size: 32px;
-  color: #000000;
-  padding-top: 70px;
-}
-
-.header p.tagline {
-  font-family: Rockwell, serif;
-  font-size: 20px;
-  padding: 0px;
-}
-
+/* ----- Image styling ----- */
 img.logo {
   width: 300px;
 }
@@ -68,40 +50,7 @@ img.hero-image {
   width: 600px;
 }
 
-
-/* ----- Navigation ----- */
-
-/* Add a black background color to the top navigation */
-.topnav {
-  background-color: #EAE7DC;
-  overflow: hidden;
-  clear: left;
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  color: grey;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-family: 'Helvetica Neue', sans-serif;
-  font-size: 18px;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #D8C3A5;
-  color: black;
-}
-
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: white;
-  color: black;
-}
-
-/* --- Side Nav --- */
+/* --- Side navigation --- */
 
 /* The sidebar menu */
 .sidenav {
@@ -141,21 +90,6 @@ img.hero-image {
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
-}
-
-
-/* Create two unequal columns that float next to each other for the title section */
-.header-section {
-  float: left;
-  padding: 0px;
-}
-
-.header-section.left {
-  width: 240px;
-}
-
-.header-section.right {
-  max-width: 600px;
 }
 
 /* Image gallery styles */
@@ -217,7 +151,7 @@ div.reading {
 
 /* --- Contact form --- */
 
-/* Style inputs with type="text", select elements and textareas */
+/* Styling text input */
 input[type=text], select, textarea {
   font-family: 'Helvetica Neue', sans-serif;
   font-size: 12px;
@@ -231,7 +165,7 @@ input[type=text], select, textarea {
   resize: vertical
 }
 
-/* Style the submit button with a specific background color etc */
+/* Styling the submit button */
 input[type=submit] {
   font-family: 'Helvetica Neue', sans-serif;
   font-size: 14px;
@@ -244,19 +178,19 @@ input[type=submit] {
   cursor: pointer;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
+/* Submit button hover effects */
 input[type=submit]:hover {
   background-color: #474747;
 }
 
-/* Add a background color and some padding around the form */
+/* Adding a container around the form */
 .container {
   border-radius: 5px;
   border: 3px solid black;
   padding: 20px;
 }
 
-/* Style the footer */
+/* --- Footer --- */
 .footer {
   background-color: rgba(255, 255, 255, 0.5);
   position: fixed;
